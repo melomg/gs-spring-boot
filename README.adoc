@@ -232,7 +232,7 @@ earlier, we could create the following test (from
 ====
 [source,java]
 ----
-include::complete/src/test/java/com/example/springboot/HelloControllerIT.java[]
+include::complete/src/test/java/com/example/springboot/HelloControllerIT.kt[]
 ----
 ====
 
@@ -373,7 +373,7 @@ class ThisWillActuallyRun {
 
     @GetMapping("/")
     String home() {
-        return "Hello, World!"
+        return "Hello, World!";
     }
 
 }
